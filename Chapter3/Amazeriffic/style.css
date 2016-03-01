@@ -16,7 +16,7 @@ header {
   overflow: auto;
 }
 
-header h1 {
+ h1 {
   float: left;
   width: 570px;
 }
@@ -27,8 +27,33 @@ header nav {
 }
 
 main {
-  background: white;
+  background: #ccff99;
   overflow: auto;
+  padding: 20px;
+  
+}
+
+p.ques {
+    color: brown;
+    font-family: cursive;  
+  font-size: 1.2em;
+}
+
+ .ans {
+    color: blue;
+    font-family: cursive;  
+  font-size: 1.2em;
+}
+
+p.ques:hover {
+    background-color: yellow;
+}
+
+.label
+{
+    color: darkgreen;
+    font-family: cursive;  
+  font-size: 1.2em;
 }
 
 main .left {
@@ -49,4 +74,9 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+.sitemap1 {
+	float : right;
+	width :285px;
+	margin-top : -160px;
 }
