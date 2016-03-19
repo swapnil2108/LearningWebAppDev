@@ -1,0 +1,53 @@
+<!doctype text/html>
+<html>
+<head>
+    <style>
+        .ma{
+            border-width: thin;
+            width: 20%;
+            height: 30%;
+            display: inline;
+        }
+        .na{
+            float: right;
+            border-width: thin;
+            width: 20%;
+            height: 30%;
+            display: inline;
+        }
+        .la{
+            border-width: thick;
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="la">
+        <fieldset class="ma">
+    <legend>Login:</legend><br><br>
+    Username:
+    <input type="text" placeholder="username" id="username"><br>
+    <br>
+    Password:
+    <input type="password" placeholder="password" id="password">
+    <br><br>
+    <button id="login">login</button>
+</fieldset>
+    <fieldset class="na">
+    <legend>Register:</legend><br><br>
+    Username:
+    <input type="text" placeholder="username" id="reguser"><br>
+    <br>
+    Password:
+    <input type="password" placeholder="password" id="regpass">
+    <br><br>
+    confirm<br>
+    Password:
+    <input type="password" placeholder="password" id="confirmpass">
+    <br><br><br>
+    <button id="Register">Register</button>     
+</fieldset>
+        </fieldset>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="sign.js"></script>
+        </body>
+</html>
